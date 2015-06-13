@@ -1,0 +1,358 @@
+body
+{
+	font-family:Verdana, Geneva, sans-serif;
+    
+	 background: repeat;
+	background-image: url('iceback.jpg');
+	
+}
+
+#page-container {
+	
+	 
+	width: 800px;
+    margin: 0 auto;
+
+	
+}
+/*header*/
+#header {  
+
+      background: repeat;
+	background-image: url('headpict.jpg'); 
+height: 100px;
+  }
+/* this is the navigation bar*/
+
+#main-nav{
+	
+	width: 500px;
+	height: 42px;
+	float: left;	
+}
+
+#main-nav ul
+{
+      
+		padding: 10px;
+		list-style-type: none;
+		font-size: 15px;
+		font-family: verdana;
+		word-spacing: 33px;
+		padding-bottom: 8px;
+		
+
+}
+#main-nav ul li
+{
+display: inline;
+text-decoration: none;
+
+padding: 4px;
+
+
+}
+#main-nav ul li a
+{
+text-decoration: none ;
+padding: 5px;
+color: white;
+background-color: #DA70D6;
+border-bottom: 5px;
+text-align: center;
+
+}
+#main-nav ul li a:hover{
+
+color: white;
+background-color: #90EE90 ;
+
+}
+.head-title{
+text-align: center;
+font-family: verdana;
+color:#DA70D6;
+padding-top: 25px;
+
+}
+/*end of the navigation bar*/
+/*socail icons*/
+#icons
+{
+float: right;
+margin:0px;
+padding-left:0px;
+padding-top: 10px;
+padding-bottom: 0px;
+padding-right: 0px;
+width: 205px;
+height: 42px;
+text-align: right;
+background-color: transparent;
+}
+#icons ul
+{
+margin: 0px;
+padding-bottom: 0px;
+list-style: none;
+
+}
+#icons ul li
+{
+display: inline;
+
+word-spacing: 10px;
+letter-spacing: 1px;
+}
+#icons ul li a
+{
+
+text-decoration: none;
+}
+#icons ul li a:hover
+{
+
+text-decoration: none;
+}
+
+
+/*socail icons*/
+
+/*ends of social iconst*/
+
+
+
+
+
+/*content*/
+#content {  
+
+    background-color:#90EE90;
+	height: 600px;
+	
+	}
+	/*end of the contentt*/
+	
+	
+	/*boxes starts*/
+#sidebar-d{
+  float: left;
+  width: 250px;
+  height: 570px;
+ 
+  background-color: #90EE90;
+  
+}
+
+#box1 {
+	 margin: 5px;
+	 padding: 5px;
+  width: 130px;
+  height: 145px;
+   background-color:#90EE90 ;
+
+}
+#box2 {
+	 display: inline-block;
+  width: 130px;
+  height: 145px;
+background-color:#90EE90 ;
+margin: 5px;
+padding: 5px;
+}
+
+#box3 {
+	
+   margin: 5px;
+  padding: 5px;
+  width: 130px;
+  height: 145px;
+ 
+   background-color:#90EE90 ;
+   }
+   	/*boxes ends*/
+
+	/* pictures title*/
+   .title{
+ 
+   color: red;
+  font-size: 12px;
+   font-family: verdana;
+   text-decoration: none;
+   padding: 5px;
+   margin: 5px;
+}
+.title-b{
+
+ color: #BA55D3 ;
+   font-family: verdana;
+   text-decoration: none;;
+   
+  }
+
+/* starts*/
+
+/* sidebars*/
+  #sidebar-b{
+  margin: 10px;
+ width: 490px;
+  height: 570px;
+  float: right;
+  background-color: #90EE90;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+/* sidbars ends*/
+#content-special{
+background-color:#FFE4B5; 
+height: 600px;
+}
+#special-a{
+float: left;
+  width: 250px;
+  height: 500px;
+  margin: 1em;
+  background-color:#FFE4B5; ;
+  }
+#specail-box1{
+width: 200px;
+height: 200px;
+margin: 1em;
+background-color:#FFE4B5; ;
+}
+
+#specail-box2{
+width: 200px;
+height: 200px;
+margin: 1em;
+background-color:#FFE4B5; ;
+}
+#special-b{
+
+ margin: 10px;
+ width: 400px;
+  height: 500px;
+  float: right;
+  background-color:#FFE4B5; ;
+  font-family: verdana;
+  font-size: 12px;
+}
+form label {display:inline-block; width:140px;}
+form input[type="text"],
+            form input[type="password"],
+            form input[type="email"] {width:160px;}
+ 
+            form .line {clear:both;}
+            form .line.submit {text-align:right;}
+
+
+/*This kids page*/
+#content-kids{
+background-color:#90EE90 ;
+height: 600px;
+
+}
+#kids-a{
+float: left;
+  width: 240px;
+  height: 400px;
+  margin: 1em;
+  background-color:#90EE90 ;
+}
+#kids-b{
+float: right;
+  width: 240px;
+  height: 400px;
+  margin: 1em;
+  background-color:#90EE90 ;
+}
+#kids-c{
+	float: right;
+display: inline;
+ width: 220px;
+  height: 400px;
+  margin: 1em;
+  background-color: #90EE90 ;
+ 
+}
+#box-kids1 {
+	 margin: 5px;
+	 padding: 5px;
+  width: 130px;
+  height: 160px;
+   background-color:#90EE90 ;
+
+}
+#box-kids2 {
+	 display: inline-block;
+  width: 130px;
+  height: 160px;
+background-color:#90EE90 ;
+margin: 5px;
+padding: 5px;
+}
+
+#box-kids3 {
+	
+   margin: 5px;
+  padding: 5px;
+  width: 130px;
+  height: 160px;
+ 
+   background-color:#90EE90 ;
+   }
+.text {
+font-family: verdana;
+   text-decoration: none;
+   font-size: 11px;
+
+
+}
+
+
+/*about page*/
+#content-about{
+background-color: #FA8072;
+height:600px;
+}
+#about-a {
+float: left;
+  width: 300px;
+  height: 400px;
+  margin: 1em;
+  background-color: #FA8072;
+}
+#about-b{
+
+ width: 400px;
+  height: 500px;
+  float: right;
+  background-color:#FA8072 ;
+   padding-right: 5px;
+   padding-top: 5px;
+}
+.prh{
+font-family: verdana;
+   text-decoration: none;
+   font-size: 13px;
+   padding-right: 5px;
+  }
+/*ends of about page*/
+
+/*This is the footer*/
+ #footer {  
+ padding-top: 7px;
+     font-family: verdana;
+	 font-size: 11px;
+    height: 40px;
+	 width: 800px; 
+	
+margin: 0 auto;
+
+       border-top: 1px solid #000000;
+	
+	background-color:pink;
+ background: repeat;
+	background-image: url('footer.jpg');
+	}
